@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .input--container {
+    /* background-color: red; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input--box {
+    background-color: #fff;
+    display: flex;
+    padding: 3px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border-radius: 50px;
+    border: #a0a0a0 1.62px solid;
+    align-items: center;
+    justify-content: center;
+    color: #191717;
+  }
+
+  .input--box input {
+    font-size: 18px;
+    width: 22rem;
+    padding: 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    align-items: center;
+  }
