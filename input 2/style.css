@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .password--container {
+    /* background-color: red; */
+    padding: 1.58rem;
+  }
+
+  .content {
+    background-color: #DCF2F1;
+    border: #365486 1.89px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.56rem;
+    padding: 8.68px;
+    padding-left: 19.68px;
+    padding-right: 19.68px;
+    border-radius: 50px;
+    color: #7FC7D9;
+    outline: #5376b3 .896px solid;
+    transition: 0.2s ease-in-out;
+  }
+
+  .content:hover {
+    outline-offset: 3px;
+  }
+
+  .content input {
+    width: 100%;
+    padding: 5.68px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    letter-spacing: 0.125rem;
+    font-family: verdana, sans-serif;
+  }
+
+  .content input::placeholder {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+  .show--pass button {
+    padding: 6.78px;
+    border: none;
+    background-color: transparent;
+    color: #365486;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
